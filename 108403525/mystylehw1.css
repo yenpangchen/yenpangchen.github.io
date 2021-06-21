@@ -1,0 +1,42 @@
+
+/*ul b{
+	font-size: 20px;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: black;
+	position: fixed;
+	top: 0;
+}*/
+a{
+	float:left;
+}
+div a{
+	font-size:20px;
+	background-color: black;
+}
+div a {
+	display:block;
+	color:white;
+	/*text-align:center;
+	padding:20px 24px;
+	text-decoration; none;*/
+}
+div a:hover:not(.active) {
+	background-color: gray;
+}
+div a.active{
+	background-color: orange;
+}
+/*.pagination a {
+ background-color:#AEE1CD;
+ color:black;
+ float:left;
+ padding:
+ text-decoration:none;
+ border:;
+}
+.pagination a:hover{
+ background-color:#AEE1CD;
+}
